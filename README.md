@@ -1,18 +1,18 @@
 # REAME_11/10
 Xây dựng trang Web với sự hỗ trợ của AI Agent
 ## 1. Công nghệ sử dụng-Tech Stack
- **Frontend**: Sử dụng React kết hợp TypeScript và Vite[cite: 1].
- **UI/UX**: Dùng Tailwind CSS để chia layout và framer-motion cho hiệu ứng quẹt thẻ[cite: 1].
- **Backend**: Viết bằng Java Spring Boot theo kiến trúc phân lớp (Controller - Service - Repository)[cite: 1].
- **Database**: Dùng PostgreSQL kết hợp Spring Data JPA (Hibernate)[cite: 1].
- **Realtime**: Dùng Spring WebSocket và STOMP để đồng bộ phòng và lượt quẹt thẻ[cite: 1].
+   **Frontend**: Sử dụng React kết hợp TypeScript và Vite[cite: 1].
+   **UI/UX**: Dùng Tailwind CSS để chia layout và framer-motion cho hiệu ứng quẹt thẻ[cite: 1].
+   **Backend**: Viết bằng Java Spring Boot theo kiến trúc phân lớp (Controller - Service - Repository)[cite: 1].
+   **Database**: Dùng PostgreSQL kết hợp Spring Data JPA (Hibernate)[cite: 1].
+   **Realtime**: Dùng Spring WebSocket và STOMP để đồng bộ phòng và lượt quẹt thẻ[cite: 1].
 
 ## 2. Các Module cốt lõi
 
- **Module 1**: Quản lý người dùng, hỗ trợ Guest Mode để lưu local/session[cite: 1].
- **Module 2**: Quản lý phòng, đồng bộ trạng thái vào/ra và ready theo thời gian thực[cite: 1].
- **Module 3**: Danh sách địa điểm và cơ chế quẹt thẻ giới hạn tần suất (Debounce)[cite: 1].
- **Module 4**: Quản lý hóa đơn và tự động chia đều tiền hoặc chỉnh tay[cite: 1].
+  *Module 1*: Quản lý người dùng, hỗ trợ Guest Mode để lưu local/session[cite: 1].
+ *Module 2*: Quản lý phòng, đồng bộ trạng thái vào/ra và ready theo thời gian thực[cite: 1].
+ *Module 3*: Danh sách địa điểm và cơ chế quẹt thẻ giới hạn tần suất (Debounce)[cite: 1].
+ *Module 4*: Quản lý hóa đơn và tự động chia đều tiền hoặc chỉnh tay[cite: 1].
 
 ## 3.Các tính năng bổ sung
 
